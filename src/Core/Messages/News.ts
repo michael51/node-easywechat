@@ -13,7 +13,7 @@ export class News extends Message
 
   constructor(items: Array<NewsItem> = [])
   {
-    super({ items });
+    super({ articles:items });
   }
 
   propertiesToArray(data, aliases = []): object
